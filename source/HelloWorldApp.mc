@@ -2,7 +2,7 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class hello-world-garminApp extends Application.AppBase {
+class HelloWorldApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -18,11 +18,11 @@ class hello-world-garminApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new hello-world-garminView() ] as Array<Views or InputDelegates>;
+        return [ new HelloWorldView() ] as Array<Views or InputDelegates>;
     }
 
 }
 
-function getApp() as hello-world-garminApp {
-    return Application.getApp() as hello-world-garminApp;
+function getApp() as HelloWorldApp {
+    return Application.getApp() as HelloWorldApp;
 }

@@ -3,7 +3,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 
-class hello-world-garminView extends WatchUi.WatchFace {
+class HelloWorldView extends WatchUi.WatchFace {
 
     function initialize() {
         WatchFace.initialize();
